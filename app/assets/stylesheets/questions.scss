@@ -1,0 +1,31 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Defining a variable
+$blue: #337ab7;
+$yellow: #fefde1;
+
+.btn {
+  background-color: $blue;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50px;
+  height: 30px;
+}
+
+blockquote {
+  border-left: 10px solid #cccccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+.question {
+  background-color: #f9f9f9;
+}
+
+.answer {
+  background-color: #fffee7;
+}
